@@ -1,14 +1,14 @@
-#karma-cucumberjs
+# karma-cucumberjs
 
 Run your Cucumber.js suite using Karma runner.
 
-##Getting Started
+## Getting Started
 ```Shell
 npm install karma-cucumberjs --save-dev
 ```
 Once you install the karma-cucumberjs adapter getting it working with your project is a matter of editing your Karma config file.
 
-###Config
+### Config
 The adapter requires that the files array in the karma config contain the files it will require to run your Cucumber feature suite. The adapter looks for the following files:
 - Cucumber reporter CSS
 - HTML/JS app template
@@ -128,13 +128,13 @@ Below is the example app.template that is used to test the karma-cucumberjs adap
 </script>
 ```
 
-##grunt-karma
+## grunt-karma
 The adapter is compatible with grunt-karma, take a look at the Gruntfile.js for karma-cucumberjs for an example. It is very simple to use, simply configure Karma as needed using the grunt config. The karma-cucumberjs Gruntfile is a working example of using Karma for both Jasmine and Cucumber.
 
-#Bugs
+# Bugs
 Please report any bugs and feature requests using the GitHub issue tracker.
 
-#Contributing
+# Contributing
 First off thank you for your interest in this project. I would be more than happy to have people help the project along by contributing fixes and features. I do however ask that each pull request is kept to a single feature as much as possible to ease the merging process. Also, please provide unit tests for your changes so that I can better understand the intended changes and so that I may integrate PRs as quickly and efficiently as possible. Thank you much again and hope this project helps you as much as it helps me!
 
 # License
